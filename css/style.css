@@ -1,0 +1,65 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+/* ///////////////////////////Les sections de la page//////////////*/
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#accueil{
+    background-color: green;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+}
+#inscription{
+   background-color: aquamarine;
+}
+#galerie{
+    background-color: chocolate;
+}
+#evenement{
+    background-color: purple;
+}
+#video{
+    background-color: red;
+}
+#footer{
+    background-color: black;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+    font-size: 3rem;
+    text-shadow: 2px, 2px, 4px, #bbb;
+}
+/*Gestion du menu*/
+/* Menu principal du site. On utilise un positionnement fixed pour
+que le menu reste en haut de chacune des sections. (en haut a gauche de l'écran) */
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    width: 100%;
+    
+
+}
+nav a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 8px 1rem;
+    font-size: large;
+    
+}
